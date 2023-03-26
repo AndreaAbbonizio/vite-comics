@@ -45,6 +45,8 @@ export default {
 
 <style lang="scss" scoped>
 #container-main {
+    position: relative;
+    z-index: 3;
     background-color: #0c7cec;
     color: white;
 
