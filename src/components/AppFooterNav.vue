@@ -32,7 +32,6 @@ export default {
 #container-bg-footer-nav {
     position: relative;
     background-color: #303030;
-    z-index: 3;
     padding: 20px;
 
     #container-footer-nav {

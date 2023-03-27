@@ -45,8 +45,9 @@ export default {
 <style lang="scss" scoped>
 #container-footer {
     position: relative;
-    background-image: url("/img/jumbotron.jpg");
+    background-image: url("/img/footer-bg.jpg");
     background-size: cover;
+    overflow: hidden;
 
     #container-list {
         display: flex;
@@ -54,7 +55,7 @@ export default {
         flex-wrap: wrap;
         align-content: flex-start;
         height: 350px;
-        max-width: 1200px;
+        max-width: 1000px;
         margin: 0 auto;
         padding: 20px;
     }
@@ -71,17 +72,6 @@ export default {
 
     }
 
-    &::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: black;
-        opacity: 0.8;
-
-    }
 
     #background-logo {
         z-index: 2;

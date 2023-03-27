@@ -56,13 +56,13 @@ export default {
         margin: 0 auto;
         height: 200px;
 
+
         ul {
             display: flex;
             align-items: center;
             justify-content: space-between;
 
             height: 100%;
-
 
             li {
                 display: flex;
@@ -81,7 +81,9 @@ export default {
                 }
             }
 
+
         }
+
 
 
     }

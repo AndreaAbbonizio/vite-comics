@@ -1,6 +1,7 @@
 <script >
 import AppNavbar from "./components/AppNavbar.vue"
-import AppHeader from "./components/AppHeader.vue"
+import AppJumbotron from "./components/AppJumbotron.vue"
+import AppListFilm from "./components/AppListFilm.vue"
 import AppMain from "./components/AppMain.vue"
 import AppFooter from "./components/AppFooter.vue"
 import AppFooterNav from "./components/AppFooterNav.vue"
@@ -12,7 +13,8 @@ export default {
   },
   components: {
     AppNavbar,
-    AppHeader,
+    AppJumbotron,
+    AppListFilm,
     AppMain,
     AppFooter,
     AppFooterNav
@@ -22,7 +24,8 @@ export default {
 
 <template>
   <AppNavbar></AppNavbar>
-  <AppHeader></AppHeader>
+  <AppJumbotron></AppJumbotron>
+  <AppListFilm></AppListFilm>
   <AppMain></AppMain>
   <AppFooter></AppFooter>
   <AppFooterNav></AppFooterNav>
